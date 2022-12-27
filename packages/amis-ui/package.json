@@ -14,7 +14,7 @@
     "coverage": "jest --coverage",
     "clean-dist": "rimraf lib/** esm/**"
   },
-  "author": "fex",
+  "author": "fengmr",
   "license": "Apache-2.0",
   "files": [
     "lib",
