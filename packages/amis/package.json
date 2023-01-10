@@ -1,5 +1,5 @@
 {
-  "name": "amis",
+  "name": "fm-amis",
   "version": "2.5.2-beta.1",
   "description": "一种MIS页面生成工具",
   "main": "lib/index.js",
@@ -41,8 +41,8 @@
     ]
   },
   "dependencies": {
-    "amis-core": "^2.5.2-beta.1",
-    "amis-ui": "^2.5.2-beta.1",
+    "fm-amis-core": "^2.5.2-beta.1",
+    "fm-amis-ui": "^2.5.2-beta.1",
     "attr-accept": "2.2.2",
     "blueimp-canvastoblob": "2.1.0",
     "classnames": "2.3.1",
@@ -235,5 +235,5 @@
     "react": ">=16.8.6",
     "react-dom": ">=16.8.6"
   },
-  "gitHead": "36f09428c27631bd35b899e51d06a78ed8a7bcd6"
+  "gitHead": "d99efe10d3f2cd00835616323ae9e7e65be26d44"
 }

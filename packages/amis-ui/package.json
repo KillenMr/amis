@@ -1,5 +1,5 @@
 {
-  "name": "amis-ui",
+  "name": "fm-amis-ui",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -35,8 +35,8 @@
   },
   "dependencies": {
     "@rc-component/mini-decimal": "^1.0.1",
-    "amis-core": "^2.5.2-beta.1",
-    "amis-formula": "^2.5.2-beta.1",
+    "fm-amis-core": "^2.5.2-beta.1",
+    "fm-amis-formula": "^2.5.2-beta.1",
     "classnames": "2.3.1",
     "codemirror": "^5.63.0",
     "downshift": "6.1.12",
@@ -139,5 +139,5 @@
       "/.rollup.cache/"
     ]
   },
-  "gitHead": "36f09428c27631bd35b899e51d06a78ed8a7bcd6"
+  "gitHead": "d99efe10d3f2cd00835616323ae9e7e65be26d44"
 }

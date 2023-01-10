@@ -1,5 +1,5 @@
 {
-  "name": "amis-core",
+  "name": "fm-amis-core",
   "version": "2.5.2-beta.1",
   "description": "amis-core",
   "main": "lib/index.js",
@@ -45,7 +45,7 @@
     "esm"
   ],
   "dependencies": {
-    "amis-formula": "^2.5.2-beta.1",
+    "fm-amis-formula": "^2.5.2-beta.1",
     "classnames": "2.3.1",
     "file-saver": "^2.0.2",
     "hoist-non-react-statics": "^3.3.2",
@@ -101,5 +101,5 @@
       "/.rollup.cache/"
     ]
   },
-  "gitHead": "36f09428c27631bd35b899e51d06a78ed8a7bcd6"
+  "gitHead": "d99efe10d3f2cd00835616323ae9e7e65be26d44"
 }
