@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aisuda/amis-tpl.git"
+    "url": "git+https://github.com/KillenMr/amis-formula.git"
   },
   "keywords": [
     "amis",
@@ -42,9 +42,9 @@
   "author": "fex",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aisuda/amis-tpl/issues"
+    "url": "https://github.com/KillenMr/amis-formula.git/issues"
   },
-  "homepage": "https://github.com/aisuda/amis-tpl#readme",
+  "homepage": "https://github.com/KillenMr/amis-formula.git#readme",
   "dependencies": {
     "lodash": "^4.17.15",
     "moment": "^2.29.4",
@@ -113,5 +113,5 @@
       "printBasicPrototype": false
     }
   },
-  "gitHead": "6e0026e35a28a8ff00fca929e319a245d6d9b6ee"
+  "gitHead": "3a7e9805716a97224ad741afc3fe7af30f6af6c5"
 }
