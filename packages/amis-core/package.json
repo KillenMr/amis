@@ -1,6 +1,6 @@
 {
   "name": "fm-amis-core",
-  "version": "2.5.2-beta.1",
+  "version": "2.5.2-beta.2",
   "description": "amis-core",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -45,9 +45,9 @@
     "esm"
   ],
   "dependencies": {
-    "fm-amis-formula": "^2.5.2-beta.1",
     "classnames": "2.3.1",
     "file-saver": "^2.0.2",
+    "fm-amis-formula": "^2.5.2-beta.2",
     "hoist-non-react-statics": "^3.3.2",
     "lodash": "^4.17.15",
     "match-sorter": "^6.3.1",
