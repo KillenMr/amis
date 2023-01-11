@@ -49,6 +49,11 @@ export interface InputFormulaControlSchema extends FormBaseControlSchema {
   functions: Array<FuncGroup>;
 
   /**
+   * 是否覆盖默认函数集合
+   */
+  hiddenDefFunctions?: boolean;
+
+  /**
    * 编辑器标题
    */
   title?: string;
@@ -196,7 +201,8 @@ export class InputFormulaRenderer extends React.Component<InputFormulaProps> {
       functionClassName,
       data,
       onPickerOpen,
-      selfVariableName
+      selfVariableName,
+      hiddenDefFunctions
     } = this.props;
     let {variables, functions} = this.props;
 
@@ -222,6 +228,7 @@ export class InputFormulaRenderer extends React.Component<InputFormulaProps> {
         variables={variables}
         variableMode={variableMode}
         functions={functions}
+        hiddenDefFunctions={hiddenDefFunctions}
         header={header || label || ''}
         borderMode={borderMode}
         placeholder={placeholder}
