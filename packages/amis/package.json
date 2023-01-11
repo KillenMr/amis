@@ -49,8 +49,8 @@
     "echarts-stat": "^1.2.0",
     "exceljs": "^4.3.0",
     "file-saver": "^2.0.2",
-    "fm-amis-core": "^2.5.2-beta.2",
-    "fm-amis-ui": "^2.5.2-beta.2",
+    "amis-core": "npm:fm-amis-core@^2.5.2-beta.2",
+    "amis-ui": "npm:fm-amis-ui@^2.5.2-beta.2",
     "hls.js": "1.1.3",
     "hoist-non-react-statics": "^3.3.2",
     "hotkeys-js": "^3.8.7",
@@ -230,8 +230,8 @@
     }
   },
   "peerDependencies": {
-    "amis-core": "*",
-    "amis-ui": "*",
+    "fm-amis-core": "*",
+    "fm-amis-ui": "*",
     "react": ">=16.8.6",
     "react-dom": ">=16.8.6"
   },
