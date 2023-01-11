@@ -230,8 +230,8 @@
     }
   },
   "peerDependencies": {
-    "amis-core": "*",
-    "amis-ui": "*",
+    "fm-amis-core": "*",
+    "fm-amis-ui": "*",
     "react": ">=16.8.6",
     "react-dom": ">=16.8.6"
   },
