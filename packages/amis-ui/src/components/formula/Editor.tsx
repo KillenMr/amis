@@ -74,6 +74,11 @@ export interface FormulaEditorProps extends ThemeProps, LocaleProps {
   hiddenDefFunctions?: boolean;
 
   /**
+   * 不校验公式
+   */
+  uncheckFormula?: boolean;
+
+  /**
    * 顶部标题，默认为表达式
    */
   header: string;

@@ -54,6 +54,11 @@ export interface InputFormulaControlSchema extends FormBaseControlSchema {
   hiddenDefFunctions?: boolean;
 
   /**
+   * 不校验公式
+   */
+  uncheckFormula?: boolean;
+
+  /**
    * 编辑器标题
    */
   title?: string;
@@ -162,9 +167,8 @@ export class InputFormulaRenderer extends React.Component<InputFormulaProps> {
   }
 
   validate() {
-    const {translate: __, value} = this.props;
-
-    if (this.ref?.validate && value) {
+    const {uncheckFormula, translate: __, value} = this.props;
+    if (!uncheckFormula && this.ref?.validate && value) {
       const res = this.ref.validate(value);
       if (res !== true) {
         return __('FormulaEditor.invalidData', {err: res});
@@ -202,7 +206,8 @@ export class InputFormulaRenderer extends React.Component<InputFormulaProps> {
       data,
       onPickerOpen,
       selfVariableName,
-      hiddenDefFunctions
+      hiddenDefFunctions,
+      uncheckFormula
     } = this.props;
     let {variables, functions} = this.props;
 
@@ -229,6 +234,7 @@ export class InputFormulaRenderer extends React.Component<InputFormulaProps> {
         variableMode={variableMode}
         functions={functions}
         hiddenDefFunctions={hiddenDefFunctions}
+        uncheckFormula={uncheckFormula}
         header={header || label || ''}
         borderMode={borderMode}
         placeholder={placeholder}

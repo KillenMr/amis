@@ -286,9 +286,12 @@ export class FormulaPicker extends React.Component<
 
   @autobind
   validate(value: string) {
-    const {translate: __} = this.props;
+    const {uncheckFormula, translate: __} = this.props;
 
     try {
+      if (uncheckFormula) {
+        return true;
+      }
       value &&
         parse(value, {
           evalMode: this.props.mixedMode ? true : this.props.evalMode,
