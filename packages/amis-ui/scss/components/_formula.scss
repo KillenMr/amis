@@ -81,6 +81,7 @@
 
     &:not(:last-child) {
       margin-right: #{px2rem(10px)};
+      max-width: calc(50% - 2 * px2rem(10px));
     }
 
     &:last-child {
@@ -214,6 +215,8 @@
 
       & > label {
         white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
       &-tag {
@@ -226,6 +229,11 @@
       }
     }
     .#{$ns}GroupedSelection {
+      &-itemLabel {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
       &-item {
         &-tag {
           line-height: 17px;
