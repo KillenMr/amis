@@ -1,6 +1,6 @@
 {
   "name": "fm-amis-formula",
-  "version": "2.5.2-beta.3",
+  "version": "2.5.2-beta.4",
   "description": "负责 amis 里面的表达式实现，内置公式，编辑器等",
   "main": "lib/index.js",
   "module": "esm/index.js",
