@@ -1,6 +1,6 @@
 {
   "name": "fm-amis",
-  "version": "2.5.2-beta.4",
+  "version": "2.5.2-beta.5",
   "description": "一种MIS页面生成工具",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -41,8 +41,8 @@
     ]
   },
   "dependencies": {
-    "amis-core": "npm:fm-amis-core@^2.5.2-beta.4",
-    "amis-ui": "npm:fm-amis-ui@^2.5.2-beta.4",
+    "amis-core": "npm:fm-amis-core@^2.5.2-beta.5",
+    "amis-ui": "npm:fm-amis-ui@^2.5.2-beta.5",
     "attr-accept": "2.2.2",
     "blueimp-canvastoblob": "2.1.0",
     "classnames": "2.3.1",
